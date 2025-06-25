@@ -6,7 +6,7 @@
 6. Write a function to check if a year is leap year or not.
 7. Write a function to find the day of the week using switch case (1-7).
 8. Write a function to find the month of the year using switch case (1-12).
-9. Write a function to calculate grade based on marks using switch case:
+9. Write a function to calculate grade based on marks using if condition:
    A (90-100), B (80-89), C (70-79), D (60-69), F (<60)
 10. Write a function to convert temperature (Celsius to Fahrenheit and vice versa).
 11. Write a function to calculate simple interest.

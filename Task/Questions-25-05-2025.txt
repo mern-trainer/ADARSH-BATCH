@@ -1,0 +1,15 @@
+1. Write a function for basic arithmetic operations (+, -, *, /, %) and display results.
+2. Write a function using switch case to create a basic calculator.
+3. Write a function to find if a number is odd or even.
+4. Write a function to find the sum of n numbers using math equation.
+5. Write a function to find the largest number from given 4 values.
+6. Write a function to check if a year is leap year or not.
+7. Write a function to find the day of the week using switch case (1-7).
+8. Write a function to find the month of the year using switch case (1-12).
+9. Write a function to calculate grade based on marks using switch case:
+   A (90-100), B (80-89), C (70-79), D (60-69), F (<60)
+10. Write a function to convert temperature (Celsius to Fahrenheit and vice versa).
+11. Write a function to calculate simple interest.
+12. Write a function to calculate the volume of a container (cube, cylinder, sphere).
+13. Write a function using switch case to display different geometric shapes' areas
+    (circle, square, rectangle, triangle).

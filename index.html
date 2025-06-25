@@ -132,7 +132,14 @@
         const number = 10
 
         function isEven(n){
-            return n % 2 == 0
+            switch(n % 2){
+                case 0:
+                    return true;
+                case 1:
+                    return false;
+                default:
+                    return undefined;
+            }
         }
 
         console.log(isEven(7))

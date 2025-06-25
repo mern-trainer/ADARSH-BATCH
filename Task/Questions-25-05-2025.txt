@@ -13,3 +13,8 @@
 12. Write a function to calculate the volume of a container (cube, cylinder, sphere).
 13. Write a function using switch case to display different geometric shapes' areas
     (circle, square, rectangle, triangle).
+14. Create an ATM Machine program using switch case that includes the following operations:
+    - Check Balance
+    - Withdraw Money 
+    - Deposit Money
+    - Exit

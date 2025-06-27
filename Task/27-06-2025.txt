@@ -25,6 +25,9 @@ Array Operations:
 20. How do you change the first element of an array?
 21. Write a program to find the largest element in an array without sorting.
 22. How do you find the missing number in an array of 1 to N?
+Example:
+Input: arr = [1, 2, 4, 5], N = largest number in the array
+Output: 3 (missing number)
 
 Mathematical Operations:
 23. Write a program to check if a number is prime.

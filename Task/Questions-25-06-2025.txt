@@ -8,8 +8,8 @@
 8. Write a function to find the month of the year using switch case (1-12).
 9. Write a function to calculate grade based on marks using if condition:
    A (90-100), B (80-89), C (70-79), D (60-69), F (<60)
-10. Write a function to convert temperature (Celsius to Fahrenheit and vice versa).
-11. Write a function to calculate simple interest.
+10. Write a function to convert temperature (Celsius to Fahrenheit and vice versa). -> F = (C * 9/5) + 32
+11. Write a function to calculate simple interest. -> (SI) = (Principal (P) * Rate (R) * Time (T)) / 100
 12. Write a function to calculate the volume of a container (cube, cylinder, sphere).
 13. Write a function using switch case to display different geometric shapes' areas
     (circle, square, rectangle, triangle).

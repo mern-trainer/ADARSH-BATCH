@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex; gap: 20px; justify-content: center; margin-top: 10px;">
+        <button type="button" id="btn_1" onclick="handleHide(1)">1</button>
+        <button type="button" id="btn_2" onclick="handleHide(2)">2</button>
+        <button type="button" id="btn_3" onclick="handleHide(3)">3</button>
+    </div>
+    <div class="content" id="btn_content_1" style="text-align: center; margin-top: 30px; display: block;">1</div>
+    <div class="content" id="btn_content_2" style="text-align: center; margin-top: 30px; display: none;">2</div>
+    <div class="content" id="btn_content_3" style="text-align: center; margin-top: 30px; display: none;">3</div>
+
+    <script>
+
+        const st1 = document.getElementById("btn_content_1").style
+        const st2 = document.getElementById("btn_content_2").style
+        const st3 = document.getElementById("btn_content_3").style
+
+        function handleHide(id) {
+           if(id == 1){
+                st1.display = "block"
+                st2.display = "none"
+                st3.display = "none"
+           }else if(id == 2){
+                st1.display = "none"
+                st2.display = "block"
+                st3.display = "none"
+           }else if(id == 3){
+                st1.display = "none"
+                st2.display = "none"
+                st3.display = "block"
+           }
+        }
+    </script>
+</body>
+</html>

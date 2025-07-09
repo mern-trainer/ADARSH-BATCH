@@ -118,6 +118,8 @@ const mappedUsers = users.map((user) => {
 
 console.log(mappedUsers)
 
-const reducedAge = users.reduce((prev, user) => prev + user.age, 0)
+const reducedAge = users.reduce((prev, user) => {
+    return prev + user.age
+}, 0)
 
 console.log(reducedAge)

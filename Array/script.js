@@ -1,125 +1,121 @@
+// Arrow Function
 
-// for
+// variable
 
-// for (let i = 0; i < arr.length; i++){
-    //     console.log(i)
-    // }
-    
-    // forEach
-    
-    
-    function sum(a, b) {
-        return a + b
-    }
-    
-    // arrow function
-    
-const sumOfNumbers = (a, b) => a + b
+// loop ->
 
-console.log(sumOfNumbers(10,20))
+// arrow function
 
-// callback function -> function that is passed as an argument to another function.
+// const a = function func() { console.log("Hi") }
 
-const display = () => {
-    console.log("Callback function called")    
+function func(a) {
+    return a
 }
 
-const anotherFunc = (cb) => {
-    cb()
+const funcName = (a) => a * 10
+
+const res = funcName(100)
+
+console.log(res)
+
+// callback function -> A function which is passed as an argument to another function.
+
+const display = (name) => {
+    console.log(name)
 }
 
-const num = 10
-
-anotherFunc(display)
-
-// ---------------------------------------------------
-
-function sumOfNNumbers(n, callback) {
-    let s = 0
-    for (let i = 1; i <= n; i++){
-        s += i
-        callback(s, 10, 20)
-    }
-    return s
+const displayName = (name, cb) => {
+    cb(name)
 }
 
-function displaySum(s, num, n2){
-    console.log(s, num, n2)
-}
+displayName("John", display)
 
-console.log(sumOfNNumbers(10, displaySum))
+// ----------------------------------------------------------
 
-// ---------------------------------------------------
+// const forEach = (arr, callbackFunc) => {
+//     for (let i = 0; i < arr.length; i++){
+//         const num = arr[i]
+//         callbackFunc(num, i, arr)
+//     }
+// }
 
-// forEach, filter, map, reduce
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8]
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// forEach(nums, (element, index, array) => {
+//     console.log(element, index, array)
+// })
 
-// forEach
+// array forEach
 
-arr.forEach((element) => {
-    console.log(element)
+const nums = [1, 2, 3, 4, 5, 6, 7, 8]
+
+// nums.forEach((element, index, array) => {
+//     console.log(element, index, array)
+// })
+
+// array forEach
+
+// for of, for in
+
+// for (const num of nums) {
+    
+// }
+
+nums.forEach((element, index, array) => {
+    console.log(element, index, array)
 })
 
-// filter
+// array filter
 
-const filteredArray = arr.filter((element) => element % 2 == 1)
+const res1 = nums.filter((number) => number % 2 == 0)
+// nums.filter(a => a % 2)
 
-console.log(filteredArray)
+console.log(res1)
 
-// map -> array manipulation
+// array map
 
-const mappedArray = arr.map((element) => {
-    if (element % 2 == 0) {
-        return element * 10
+const res2 = nums.map((number) => {
+    if (number % 2 == 0) {
+        return number + 100
     }
-    return element
+    return number
 })
 
-console.log(mappedArray)
+console.log(res2)
 
-// reduce -> reduce the array to a single value.
+// array reduce
 
-const value = arr.reduce((previousValue, element) => {
-    return previousValue + element // 10
+const res3 = nums.reduce((prev, number) => {
+    return prev + number // 15
 }, 0)
 
-console.log(value)
+console.log(res3)
 
-const obj = {
-    name: "John",
-    age: 20,
-    email: "abc@example.com"
-}
 
-const users = [{
-    name: "John",
-    age: 20,
-    email: "abc@example.com"
-},{
-    name: "Jane",
-    age: 21,
-    email: "jane@example.com"
-},{
-    name: "Jack",
-    age: 22,
-    email: "jack@example.com"
-}]
+const employees = [
+    { name: "Alice", age: 30, salary: 70000, department: "Engineering" },
+    { name: "Bob", age: 45, salary: 80000, department: "Marketing" },
+    { name: "Charlie", age: 35, salary: 65000, department: "Engineering" },
+    { name: "David", age: 50, salary: 90000, department: "Management" },
+    { name: "Eve", age: 28, salary: 50000, department: "Marketing" },
+    { name: "Frank", age: 40, salary: 75000, department: "Finance" },
+    { name: "Grace", age: 32, salary: 62000, department: "Engineering" },
+    { name: "Hannah", age: 27, salary: 55000, department: "Marketing" },
+    { name: "Isaac", age: 38, salary: 68000, department: "HR" },
+    { name: "Jack", age: 42, salary: 72000, department: "Finance" },
+    { name: "Kara", age: 29, salary: 54000, department: "Engineering" },
+    { name: "Leo", age: 33, salary: 58000, department: "HR" },
+    { name: "Mona", age: 47, salary: 82000, department: "Marketing" },
+    { name: "Nina", age: 31, salary: 69000, department: "Finance" },
+    { name: "Oliver", age: 36, salary: 73000, department: "Management" }
+];
 
-const filteredUsers = users.filter((user) => user.age >= 21)
-console.log(filteredUsers)
+const namesArray = employees.map(emp => emp.name.toUpperCase())
 
-const mappedUsers = users.map((user) => {
-    if (user.age == 22) {
-        user.age = 100
-    }
-    return user
-})
+const filteredNames = namesArray.filter(name => name)
 
-console.log(mappedUsers)
+console.log(filteredNames)
 
-const reducedAge = users.reduce((prev, user) => {
-    return prev + user.age
-}, 0)
+const sumOfSalary = employees.reduce((totalSalary, employee) => totalSalary + employee.salary, 0)
 
-console.log(reducedAge)
+console.log(sumOfSalary / employees.length)

@@ -1,0 +1,89 @@
+CLOSURE
+--------------------
+// Question 1: Write a closure function that creates a counter
+// Example: 
+// const counter = createCounter();
+// counter(); // Returns 1
+// counter(); // Returns 2
+
+// Question 2: Write a closure function that creates a greeting
+// Example:
+// const greet = createGreeting("Hello");
+// greet("John"); // Returns "Hello John"
+// greet("Jane"); // Returns "Hello Jane"
+
+// Question 3: Write a closure function that creates a multiplier
+// Example:
+// const multiplyBy5 = createMultiplier(5);
+// multiplyBy5(3); // Returns 15
+// multiplyBy5(6); // Returns 30
+
+// Question 4: Write a closure function that maintains a running total
+// Example:
+// const total = createTotal();
+// total.add(5); // Returns 5
+// total.add(3); // Returns 8
+// total.getTotal(); // Returns 8
+
+// Question 5: Write a closure function that creates a name formatter
+// Example:
+// const formatter = createNameFormatter();
+// formatter.setFormat("uppercase");
+// formatter.format("john"); // Returns "JOHN"
+
+// Question 6: Write a closure function that creates a simple calculator
+// Example:
+// const calc = createCalculator(10);
+// calc.add(5); // Returns 15
+// calc.subtract(3); // Returns 12
+
+// Question 7: Write a closure function that creates a list manager
+// Example:
+// const list = createList();
+// list.add("item1");
+// list.getItems(); // Returns ["item1"]
+
+// Question 8: Write a closure function that creates a temperature converter
+// Example:
+// const converter = createConverter();
+// converter.celsiusToFahrenheit(0); // Returns 32
+// converter.fahrenheitToCelsius(32); // Returns 0
+
+// Question 9: Write a closure function that creates a bank account manager
+// Example:
+// const account = createBankAccount(1000); // Initial balance
+// account.deposit(500); // Returns "Deposited 500. New balance: 1500"
+// account.withdraw(200); // Returns "Withdrawn 200. New balance: 1300"
+// account.getBalance(); // Returns 1300
+
+RECURSION
+----------------------
+// Question 1: Write a recursive function to calculate the factorial of a number
+// Example: factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
+
+// Question 2: Write a recursive function to calculate the sum of numbers from 1 to n
+// Example: sum(5) = 1 + 2 + 3 + 4 + 5 = 15
+
+// Question 3: Write a recursive function to print numbers from n to 1
+// Example: printDesc(5) should print: 5 4 3 2 1
+
+// Question 4: Write a recursive function to calculate the nth Fibonacci number
+// Example: fibonacci(6) = 8 (sequence: 0,1,1,2,3,5,8)
+
+// Question 5: Write a recursive function to find the sum of digits of a number
+// Example: sumDigits(123) = 1 + 2 + 3 = 6
+
+// Question 6: Write a recursive function to check if a string is palindrome
+// Example: isPalindrome("radar") = true
+
+// Question 7: Write a recursive function to calculate power of a number
+// Example: power(2,3) = 2^3 = 8
+
+// Question 8: Write a recursive function to count the number of digits in a number
+// Example: countDigits(12345) = 5
+
+// Question 9: Write a recursive function to check if a number is palindrome
+// Example: isNumberPalindrome(12321) = true
+
+// Question 10: Write a recursive function to reverse a string
+// Example: reverse("hello") = "olleh"

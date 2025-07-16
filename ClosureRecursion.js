@@ -72,7 +72,7 @@ const sampleFunc = () => {
     }
     console.log(i)
     i++
-    sampleFunc()
+    return sampleFunc()
 }
 
 sampleFunc()

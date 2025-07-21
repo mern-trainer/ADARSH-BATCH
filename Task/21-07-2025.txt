@@ -1,0 +1,18 @@
+// Set Questions
+// 1. Write a function to remove duplicates from an array using Set
+// 2. Create a function that finds the intersection of two arrays using Set
+
+// Memoization Questions
+// 1. Implement a memoized fibonacci sequence calculator
+// 2. Create a memoized function for calculating factorial
+// 3. Write a function that implements caching for API calls
+
+// Spread Operator Questions
+// 1. Write a function that merges multiple arrays using spread
+// 2. Create a function that clones and modifies objects using spread
+// 3. Implement a function that combines multiple objects with spread
+
+// Rest Parameter Questions - (Do Your Own Reaserch to find what is Rest Parameter)
+// 1. Write a function that accepts unlimited arguments and sums them
+// 2. Create a function that groups rest parameters by type
+// 3. Implement a function logger that uses rest parameters

@@ -164,7 +164,8 @@ console.log(sum(1, 20));
 console.log(sum(1, 20));
 
 // ------------------------------------------------------------------------------
-const store = new Map()
+
+const store = new Map();
 
 const fetchData = async (productId) => {
     try {
@@ -172,7 +173,7 @@ const fetchData = async (productId) => {
             return store.get(productId)
         }
         console.log("Fetching data...");
-        const response = await fetch(`https://dummyjson.com/products/${productId}`)
+        const response = await fetch(`https://dummyjson.com/products/${productId}?limit=20&skip=10`)
         const data = await response.json()
         store.set(productId, data)
         return data

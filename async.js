@@ -98,4 +98,3 @@ const getDataFromURL = async () => {
 
 getDataFromURL()
 
-

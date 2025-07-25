@@ -41,7 +41,6 @@ const p = () => {
 
 // console.log("Hello World");
 
-
 // const a = 10
 
 // const b = () => {

@@ -1,0 +1,24 @@
+HTML, CSS, JS -> Multi page
+-> Actual DOM, Real DOM
+
+React -> SPA -> Single Page Application
+
+-> Library -> Supporting soft.
+
+React -> Js librayr for creating UI and UX.
+
+Features -> 
+ -> SPA
+ -> Virtual DOM -> Copy of Real DOM
+ -> One way data binding / unidirectional data flow
+ -> Component Based Arch. -> like functions
+ -> JSX -> JavaScript XML -> syntax extension => HTML + JS
+
+installation 
+
+NodeJS -> npm
+vite -> bundler tool
+npm create vite <folder_name>
+
+
+

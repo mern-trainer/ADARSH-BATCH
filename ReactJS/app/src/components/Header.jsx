@@ -1,5 +1,7 @@
+import "./Header.scss"
+
 const Header = () => {
-    return <div>
+    return <div className="bg-primary">
         Header
     </div>
 }

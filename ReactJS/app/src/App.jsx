@@ -1,35 +1,16 @@
-// import { Fragment } from "react"
-
+import { BrowserRouter, Routes, Route } from "react-router"
+import Mapping from "./pages/Mapping"
 import LandingPage from "./pages/LandingPage"
-
-
-
-// const App = () => {
-
-//     const handleCreatePassword = () => {
-//         const charList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*"
-//         let password = "";
-//         for (let i = 0; i < 16; i++){
-//             const randomIndex = Math.floor(Math.random() * charList.length)
-//             const randomChar = charList[randomIndex]
-//             password += randomChar
-//         }
-//         document.getElementById("password").innerHTML = `<b>password: ${password}</b>`
-//         document.getElementById("list").innerHTML += password + "<br/>"
-//     }
-
-//     return <Fragment>
-//         <div id="password"></div>
-//         <button onClick={handleCreatePassword}>Create Password</button>
-//         <div id="list"></div>
-//     </Fragment>
-// }
-
-// export default App;
-
+import AboutPage from "./pages/AboutPage"
 
 const App = () => {
-    return <LandingPage />
+    return <BrowserRouter>
+        <Routes>
+            <Route path="/react-mapping" Component={Mapping} />
+            <Route path="/landing" Component={LandingPage} />
+            <Route path="/about" Component={AboutPage} />
+        </Routes>
+    </BrowserRouter>
 }
 
 export default App

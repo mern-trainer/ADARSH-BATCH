@@ -1,0 +1,38 @@
+Requirements:
+
+1. Random Number Generator
+- Create a button component that generates a random number between 1-100
+- Use useState hook to store and display the generated number
+- Update the state when button is clicked
+
+2. Random Character String
+- Implement a state variable to store a string
+- Add button that appends a random character (a-z, A-Z) to the string
+- Display the current string value
+- Update state on each button click
+
+3. Character Removal
+- Add button to remove the last character from the string state
+- Update and display the modified string
+- Handle empty string case
+
+4. Password Generator
+- Create button to generate random password
+- Password should include mix of:
+  * Uppercase letters
+  * Lowercase letters 
+  * Numbers
+  * Special characters
+- Store generated password in state
+- Display current password
+
+5. Calculator Implementation
+- Create calculator UI - sample: https://www.sourcecodester.com/sites/default/files/images/razormist/basic-calculator-app-in-vanillajs-4.png
+- Include number buttons (0-9)
+- Implement operation buttons (+, -, *, /)
+- Add decimal point functionality
+- Include clear/reset button
+- Show running calculation display
+- Handle basic arithmetic operations
+- Display calculation result
+- Ensure proper error handling

@@ -1,0 +1,21 @@
+1. Create a website with the following pages:
+   - Landing/Home page
+   - About page 
+   - Contact page
+
+2. Each page should include:
+   - A consistent header section
+   - Navigation menu linking to all pages
+   - Appropriate content for that specific page
+
+3. Navigation requirements:
+   - Clear, easy to use menu
+   - Highlight current active page
+   - Include links to Home, About and Contact
+   - Consistent placement across all pages
+
+4. Header requirements:
+   - Company logo/name
+   - Navigation menu
+   - Professional design
+   - Responsive layout

@@ -35,6 +35,7 @@ C. Data Operations:
    Create a restaurant management system with the following fields:
    - Restaurant ID (unique identifier)
    - Restaurant Name
+   - Restaurant Image as url
    - Location/Address
    - Contact Number
    - Operating Hours

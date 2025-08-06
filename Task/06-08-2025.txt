@@ -1,0 +1,59 @@
+1. Student Registration System Requirements:
+
+   Create a registration form with the following fields:
+   - Student ID (unique identifier)
+   - Full Name
+   - Department
+   - Year of Study
+   - Phone Number
+   - Email Address  
+   - Physical Address
+   - Status (Active/Inactive)
+
+A. State Management:
+   - Implement a single state object to store student form
+   - Implement a state (array) to store all student data
+
+B. Core Functionality:
+   a) Student Management
+      - Add new student records
+      - Display list of all registered students
+      - Remove student records from system
+   
+   b) Status Control
+      - Toggle student status between Active/Inactive
+      - Implement status as enumerated type - ACTIVE, INACTIVE, SUSPENDED
+      - Display status changes in student records
+
+C. Data Operations:
+   - Include input validation
+
+
+
+2. Restaurant Listing System Requirements:
+
+   Create a restaurant management system with the following fields:
+   - Restaurant ID (unique identifier)
+   - Restaurant Name
+   - Location/Address
+   - Contact Number
+   - Operating Hours
+   - Rating (1-5 stars)
+   - Status (Open/Closed/Temporarily Closed)
+
+A. State Management:
+   - Implement state object for restaurant form data
+   - Implement state array to store all restaurant listings
+
+B. Core Functionality:
+   a) Restaurant Management
+      - Add new restaurant listings
+      - Display list of all restaurants
+      - Remove restaurants from system
+   
+   b) Status Control
+      - Update restaurant operating status
+      - Track status changes in restaurant records
+
+C. Data Operations:
+   - Validate all input fields

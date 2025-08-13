@@ -1,5 +1,7 @@
 import Header from "../components/Header"
 
+// props -> properties
+
 const LandingPage = () => {
     return <div>
         <Header />

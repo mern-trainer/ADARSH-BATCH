@@ -15,7 +15,7 @@ const TodoList = () => {
     const handleSubmit = (event) => {
         event.preventDefault()
         if (todo == "") return alert("Please enter a todo");
-        // if(todo.length < 10) return alert("Todo must be at least 10 characters");
+        if(todo.length < 10) return alert("Todo must be at least 10 characters");
         const index = todoList.findIndex((task) => task.title.toLowerCase() == todo.toLowerCase());
         if(index > -1) return alert("Todo already exists");
         const taskObj = {
